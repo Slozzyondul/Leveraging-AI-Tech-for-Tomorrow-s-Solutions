@@ -1,6 +1,8 @@
 # Leveraging-AI-Tech-for-Tomorrow-s-Solutions
 Disaster Response: Utilizing real-time AI to analyze data and help communities prepare for natural disasters.
 
+# Pitch Deck Link - https://www.canva.com/design/DAGX2JaeuuU/olTWT_pG_n_m87hzf6jwPg/view?utm_content=DAGX2JaeuuU&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
 # Targets Features
 
 1. Early Warning System
@@ -49,9 +51,11 @@ Push notifications for high-risk zones.
 Display alert levels 
 
 2. Risk Assessment and Mapping
+
 Visualize potential disaster zones using maps or graphs.
 
 3. User Report System
+
 Users can submit reports (e.g., type of disaster, location, description).
 
 
