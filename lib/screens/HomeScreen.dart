@@ -13,7 +13,8 @@ class _HomeScreenState extends State<HomeScreen> {
   List<dynamic> disasterAlerts = [];
 
   Future<void> fetchAlerts() async {
-    final response = await http.get(Uri.parse('http://localhost:5000/alerts'));
+    //final response = await http.get(Uri.parse('http://localhost:5000/alerts'));
+    final response = await http.get(Uri.parse('http://10.0.2.2:5000/alerts'));
     if (response.statusCode == 200) {
       setState(() {
         disasterAlerts = json.decode(response.body);

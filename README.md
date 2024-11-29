@@ -70,3 +70,12 @@ Users can submit reports (e.g., type of disaster, location, description).
 - Database (SQL)
 
 # How To Run
+1. Backend s
+- open mockModel.py in integrated then run "python3 mockModel.py"
+- open app.py in another integrated then run "python3 app.py"
+- open separate terminal and start mariadb server 
+- create a database called "disaster_alerts.db" 
+- create all the tables as per table.sql file
+- 
+
+
