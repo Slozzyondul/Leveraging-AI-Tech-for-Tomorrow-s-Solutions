@@ -1,0 +1,13 @@
+#Fri Nov 29 14:37:42 EAT 2024
+path.3=13/classes.dex
+path.2=1/classes.dex
+path.1=0/classes.dex
+path.0=classes.dex
+base.3=/home/ondul/Desktop/Leveraging-AI-Tech-for-Tomorrow-s-Solutions/build/app/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+base.2=/home/ondul/Desktop/Leveraging-AI-Tech-for-Tomorrow-s-Solutions/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.1=/home/ondul/Desktop/Leveraging-AI-Tech-for-Tomorrow-s-Solutions/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/home/ondul/Desktop/Leveraging-AI-Tech-for-Tomorrow-s-Solutions/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
