@@ -1,7 +1,9 @@
 # Leveraging-AI-Tech-for-Tomorrow-s-Solutions
 Disaster Response: Utilizing real-time AI to analyze data and help communities prepare for natural disasters.
 
-# Pitch Deck Link - https://www.canva.com/design/DAGX2JaeuuU/olTWT_pG_n_m87hzf6jwPg/view?utm_content=DAGX2JaeuuU&utm_campaign=designshare&utm_medium=link&utm_source=editor
+# Pitch Deck Link 
+
+https://www.canva.com/design/DAGX2JaeuuU/olTWT_pG_n_m87hzf6jwPg/view?utm_content=DAGX2JaeuuU&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 # Targets Features
 
