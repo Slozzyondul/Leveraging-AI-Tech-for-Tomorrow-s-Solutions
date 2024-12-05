@@ -1,3 +1,5 @@
+import 'package:ai/screens/objectDetection.dart';
+import 'package:ai/screens/textFromImageScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
@@ -13,8 +15,8 @@ class _HomeScreenState extends State<HomeScreen> {
   List<dynamic> disasterAlerts = [];
 
   Future<void> fetchAlerts() async {
-    //final response = await http.get(Uri.parse('http://localhost:5000/alerts'));
-    final response = await http.get(Uri.parse('http://10.0.2.2:5000/alerts'));
+    final response = await http.get(Uri.parse('http://127.0.0.1:5000/alerts'));
+    //final response = await http.get(Uri.parse('http://10.0.2.2:5000/alerts'));
     if (response.statusCode == 200) {
       setState(() {
         disasterAlerts = json.decode(response.body);
@@ -35,6 +37,28 @@ class _HomeScreenState extends State<HomeScreen> {
     return SafeArea(
         child: Scaffold(
       appBar: AppBar(
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.image),
+            tooltip: 'upload image to detect',
+            onPressed: () {
+              Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const ObjectDetectionPage()),
+          );
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.wrap_text_sharp),
+            tooltip: 'Extract text from an image',
+            onPressed: () {
+               Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const ImageToTextApp()),
+          );
+            },
+          ),
+        ],
         title: const Center(child: Text('Disaster Alerts')),
         backgroundColor: Colors.blue.shade500,
       ),
@@ -47,7 +71,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   end: Alignment.topLeft,
                 ),
               ),
-              child: const Center(child: CircularProgressIndicator(
+              child: const Center(
+                  child: CircularProgressIndicator(
                 valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
               )))
           : Container(

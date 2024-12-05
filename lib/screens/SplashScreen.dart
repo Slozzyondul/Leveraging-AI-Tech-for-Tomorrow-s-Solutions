@@ -1,4 +1,3 @@
-import 'package:ai/screens/GoogleMapsScreen.dart';
 import 'package:ai/screens/HomeScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   void _loadData() async {
-    await Future.delayed(const Duration(seconds: 10));
+    await Future.delayed(const Duration(seconds: 5));
     if (mounted) {
       // Navigate to HomeScreen after the delay
       Navigator.pushReplacement(
